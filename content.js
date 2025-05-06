@@ -36,7 +36,7 @@ function showToast(message) {
   const toast = document.createElement("div");
   toast.innerText = message;
   toast.style.position = "fixed";
-  toast.style.bottom = "20px";
+  toast.style.top = "50px";
   toast.style.right = "20px";
   toast.style.background = "#333";
   toast.style.color = "#fff";
